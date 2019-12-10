@@ -4,6 +4,9 @@
 
 //GLOBAL VARIABLES
 /* global $ */
-
-
-
+$("#shoot").click(function)(){
+    let math=Math.random();
+    let box= $("#input").val();
+    alert(box);
+    $("#userChoice").html(box);
+});
